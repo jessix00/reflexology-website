@@ -1,9 +1,11 @@
+/* NAVIGATION */
+
 .nav-container {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 0;
     height: 70px;
     align-items: center;
+    padding: 0 10%;
 }
 
 .nav-items {
@@ -20,3 +22,31 @@
 .navbar-toggle {
     display: none;
 }
+
+
+/* CONTENT */
+
+.content-wrapper {
+    /* padding: 0 10%; */
+}
+
+
+/* INFO SECTION */
+
+.info {
+    display: flex;
+}
+
+
+/* BENEFIT SECTION */
+
+.benefit-wrapper {
+    display: flex;
+}
+
+.appointment {
+    display: flex;
+}
+
+
+/* FOOTER SECTION */

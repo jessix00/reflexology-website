@@ -6,12 +6,16 @@
 
 body {
     font-family: sans-serif;
-    /* background: black; */
+    letter-spacing: .5px;
 }
+
+
+/* NAVIGATION */
 
 .nav-container {
     font-size: 18px;
     padding-bottom: 10px;
+    background: #3D405B;
 }
 
 .nav-items {
@@ -19,14 +23,21 @@ body {
     display: none;
 }
 
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .nav-link,
 .logo {
     text-decoration: none;
+    color: #fff;
 }
 
 .nav-container li {
     text-align: center;
     margin: 15px auto;
+    color: #fff;
 }
 
 .logo {
@@ -48,6 +59,9 @@ body {
     display: block;
 }
 
+
+/* HERO ITEMS */
+
 .hero-img {
     width: 100%;
     position: relative;
@@ -58,4 +72,79 @@ body {
     z-index: 1;
     padding: 25% 0;
     text-align: center;
+}
+
+
+/* CONTENT */
+
+.content-wrapper h1 {
+    padding-bottom: 20px;
+    color: #E07A5F;
+}
+
+
+/* INFO SECTION */
+
+.info {
+    padding: 50px 20px;
+    /* border-bottom: #31263E solid 2px; */
+}
+
+.info p {
+    padding: 10px 0;
+}
+
+.info img {
+    width: 100%;
+    height: auto;
+    max-width: 275px;
+}
+
+
+/* BENEFIT SECTION */
+
+.benefits-bg {
+    padding-top: 20px;
+    background: linear-gradient(to top right, #3D405B 50%, transparent 50.5%) no-repeat top, linear-gradient(0deg, #3D405B, #3D405B) no-repeat bottom;
+    background-size: 100% 5em, 100% calc(100% - 5em)
+}
+
+.benefits {
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.benefit-item {
+    padding: 10px;
+}
+
+.benefits button {
+    margin: 10px;
+}
+
+
+/* APPOINTMENT SECTION */
+
+.appointment {
+    padding: 50px 20px;
+}
+
+.appointment img {
+    width: 100%;
+    max-width: 515px;
+    height: auto;
+}
+
+.appointment button {
+    margin: 10px;
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+    background: #3D405B;
+    height: 150px;
+    color: #fff;
 }
